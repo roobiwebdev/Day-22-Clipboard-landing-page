@@ -1,0 +1,220 @@
+@media screen and (width <=65em) {
+  .container {
+    margin: 0 3em;
+  }
+  header {
+    height: 85vh;
+  }
+
+  .content-title {
+    width: 100%;
+  }
+
+  section .content {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  section .content img {
+    position: relative;
+    left: 0em;
+  }
+
+  section .lists {
+    flex-direction: row;
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+  .quick-search .disc {
+    text-align: center;
+  }
+
+  .cloud .disc {
+    text-align: center;
+  }
+
+  .history .disc {
+    text-align: center;
+  }
+
+  aside .content-title {
+    flex-direction: column;
+  }
+
+  .imgs-withDisc {
+    flex-direction: column;
+  }
+  .imgs {
+    text-align: center;
+    margin: 0;
+  }
+  .list-img,
+  .text,
+  .preview {
+    width: 100%;
+    text-align: center;
+    margin: 0 0.7em;
+  }
+
+  .brands img {
+    margin: 1em 2.5em;
+    text-align: center;
+  }
+
+  article {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+  }
+
+  .footer img {
+    margin-left: -1em;
+    margin-right: 3em;
+  }
+  .lists ul li {
+    margin: 0.5em 0;
+  }
+  .lists .faqs {
+    margin-right: 2.4em;
+  }
+
+  .lists .Privacy {
+    margin-right: 2em;
+  }
+
+  .socials {
+    margin-right: 2em;
+  }
+
+  @media screen and (width<=760px) {
+    body {
+      font-size: 15px;
+    }
+    .container {
+      margin: 0 1em;
+    }
+    header,
+    article {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 3.5em 0em;
+    }
+
+    header .logo {
+      margin-top: 3em;
+      margin-bottom: 3.2em;
+    }
+    .main-title {
+      font-size: 2rem;
+      margin-bottom: 0.4em;
+    }
+
+    .btns {
+      flex-direction: column;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: baseline;
+      margin-top: 2.8em;
+    }
+    .btns button {
+      padding: 0.9em 3em;
+      margin-bottom: 1em;
+    }
+
+    section img {
+      width: 100%;
+    }
+
+    section .lists {
+      flex-direction: column;
+      gap: 3em;
+    }
+
+    aside img {
+      width: 100%;
+    }
+    main {
+      margin-top: 2em;
+    }
+    main h2 {
+      text-align: center;
+    }
+
+    .list-img,
+    .text,
+    .preview {
+      margin: 1em 0.7em;
+    }
+
+    .brands {
+      margin-bottom: 0em;
+      margin-top: 3em;
+      flex-wrap: wrap;
+    }
+    .brands img {
+      margin-bottom: 3em;
+    }
+
+    article {
+      height: auto;
+    }
+
+    footer {
+      height: auto;
+      display: flex;
+      justify-self: center;
+      align-items: center;
+    }
+    footer,
+    .footer,
+    .lists {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .footer img {
+      margin: 0;
+      margin-bottom: 1em;
+    }
+
+    .lists ul li {
+      margin: 0;
+      margin-bottom: 1.5em;
+    }
+    .lists .faqs {
+      margin: 0;
+      margin-bottom: 0;
+    }
+
+    .lists .Privacy {
+      margin: 0;
+      margin-bottom: 0;
+    }
+
+    .socials {
+      margin: 0;
+      margin-bottom: 0;
+    }
+
+    .socials img {
+      margin: 0 1em;
+    }
+
+    @media screen and (width<=400px) {
+      header {
+        height: auto;
+      }
+
+      .btns button {
+        padding: 13px 26px;
+      }
+    }
+  }
+}

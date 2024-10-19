@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  font-size: 18px;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.disc {
+  color: hsl(201, 11%, 66%);
+}
+
+header {
+  height: 89vh;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.content-title {
+  width: 50%;
+  text-align: center;
+}
+header .logo {
+  margin-top: 7em;
+  margin-bottom: 3.2em;
+}
+.main-title {
+  font-size: 2.725rem;
+  margin-bottom: 0.4em;
+}
+
+.sub-title {
+  font-size: 2.125rem;
+  margin-bottom: 0.6em;
+}
+
+header .disc {
+  letter-spacing: 1px;
+  line-height: 29px;
+  margin-top: 0;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 2.8em;
+}
+
+.btns button {
+  padding: 16px 35px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: white;
+}
+
+.btns .btn-1 {
+  margin-right: 1em;
+  background: #26baa4;
+}
+
+.btns .btn-2 {
+  background-color: #6074fe;
+}
+/* Section */
+section {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section .disc {
+  line-height: 29px;
+  text-align: center;
+}
+
+section .content {
+  display: flex;
+  margin-top: 4.6em;
+}
+
+section .content img {
+  position: relative;
+  left: -2.3em;
+}
+section .lists {
+  flex-direction: column;
+  width: 25%;
+  margin-left: 3.76em;
+  margin-top: 3.7em;
+}
+
+.title {
+  font-size: 1.45rem;
+}
+
+.quick-search {
+  margin-bottom: 3.3em;
+}
+.quick-search .disc {
+  font-size: 1rem;
+  margin-top: 0.6em;
+  text-align: start;
+}
+
+.cloud {
+  margin-bottom: 3.2em;
+}
+.cloud .disc {
+  font-size: 1rem;
+  margin-top: 0.6em;
+  text-align: start;
+}
+
+.history .disc {
+  font-size: 1rem;
+  margin-top: 0.6em;
+  text-align: start;
+}
+
+/* aside */
+
+aside {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8.5em;
+}
+
+aside .disc {
+  line-height: 29px;
+  margin-top: 0;
+}
+
+aside img {
+  margin-top: 5.5em;
+}
+/* main */
+
+main {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs-withDisc {
+  display: flex;
+  margin-top: 4.5em;
+}
+
+.imgs-withDisc .disc {
+  font-size: 1rem;
+}
+
+.list-img,
+.text,
+.preview {
+  width: 19.7em;
+  text-align: center;
+  margin: 0 0.7em;
+}
+
+.imgs-withDisc .icon {
+  margin-bottom: 2.2em;
+}
+
+.list-img .icon {
+  margin-bottom: 1.8em;
+}
+
+.imgs-withDisc .title {
+  margin-bottom: 0.85em;
+}
+
+.imgs-withDisc .disc {
+  line-height: 26px;
+}
+
+.brands {
+  margin-top: 9em;
+}
+.brands img {
+  margin: 0 2.5em;
+}
+
+article {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4.2em 0;
+}
+
+article .disc {
+  line-height: 30px;
+  margin-top: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5em;
+  height: 8em;
+  background: #f4f7f8;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  width: 55px;
+  height: 55px;
+  margin-left: 3.7em;
+  margin-right: 7.5em;
+  cursor: pointer;
+}
+
+.lists {
+  display: flex;
+}
+
+.lists ul li {
+  list-style: none;
+  margin: 1.1em 0;
+}
+
+.lists ul li a {
+  text-decoration: none;
+  color: hsl(204, 11%, 9%);
+}
+
+.lists .faqs {
+  margin-right: 5.4em;
+}
+
+.lists .Privacy {
+  margin-right: 4em;
+}
+
+.socials {
+  margin-right: 3.3em;
+}
+
+.socials img {
+  margin: 0 0.5em;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.socials img:hover {
+  transform: rotateY(60deg);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
